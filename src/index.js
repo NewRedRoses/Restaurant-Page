@@ -1,1 +1,3 @@
-alert("setting up webpack");
+import startPage from "./startPage";
+
+startPage;
