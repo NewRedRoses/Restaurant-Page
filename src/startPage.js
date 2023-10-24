@@ -1,4 +1,15 @@
-const container = document.querySelector("div#content");
-container.innerHTML = "test start page";
+import restaurantImg from "./Dish on white plate.jpg";
 
-export { container };
+export default function startPage() {
+  const container = document.querySelector("div#content");
+
+  const welcomeMsg = document.createElement("div");
+  welcomeMsg.classList.add("header-text");
+  welcomeMsg.textContent = "Fancy Restaurant page";
+  container.appendChild(welcomeMsg);
+
+  const myImg = new Image();
+  myImg.classList.add("image");
+  myImg.src = restaurantImg;
+  container.appendChild(myImg);
+}
