@@ -1,3 +1,4 @@
+import menuPage from "./menuPage";
 import startPage from "./startPage";
 import "./styles.css";
 
@@ -19,3 +20,4 @@ for (const value of buttonValues) {
   buttonContainer.appendChild(button);
 }
 startPage(container);
+// menuPage(container);
