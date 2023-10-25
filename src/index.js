@@ -19,5 +19,5 @@ for (const value of buttonValues) {
   button.textContent = value;
   buttonContainer.appendChild(button);
 }
-startPage(container);
-// menuPage(container);
+// startPage(container);
+menuPage(container);
