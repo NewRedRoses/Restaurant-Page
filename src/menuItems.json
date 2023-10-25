@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Savory Seafood Pasta",
+    "price": "$18.99",
+    "ingredients": "Freshly caught shrimp and succulent scallops tossed in a garlic-infused white wine sauce with al dente linguine, finished with a sprinkle of parmesan cheese."
+  },
+  {
+    "name": "Herb-Crusted Filet Mignon",
+    "price": "$29.99",
+    "ingredients": "Prime cut filet mignon encrusted with a blend of aromatic herbs, grilled to perfection, served with a rich red wine reduction, garlic mashed potatoes, and steamed asparagus."
+  },
+  {
+    "name": "Mushroom Risotto",
+    "price": "$16.99",
+    "ingredients": "Creamy Arborio rice simmered with a medley of wild mushrooms, aromatic shallots, and fresh thyme, finished with a drizzle of truffle oil and grated Parmigiano-Reggiano."
+  },
+  {
+    "name": "Caprese Chicken Salad",
+    "price": "$14.99",
+    "ingredients": "Grilled chicken breast served atop a bed of mixed greens, cherry tomatoes, fresh mozzarella, and basil leaves, drizzled with balsamic glaze and extra virgin olive oil."
+  },
+  {
+    "name": "Vegetarian Thai Curry",
+    "price": "$15.99",
+    "ingredients": "A vibrant medley of colorful vegetables simmered in a fragrant coconut milk and red curry paste, served over steamed jasmine rice, garnished with cilantro and lime wedges."
+  },
+  {
+    "name": "Decadent Chocolate Fondue",
+    "price": "$12.99",
+    "ingredients": "A luscious blend of premium dark and milk chocolate, served warm for dipping an assortment of fresh fruits, marshmallows, and buttery pound cake."
+  }
+]
