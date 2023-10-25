@@ -1,5 +1,6 @@
 import menuPage from "./menuPage";
 import startPage from "./startPage";
+import contactPage from "./contactPage";
 import "./styles.css";
 
 const container = document.querySelector("div#content");
@@ -20,4 +21,5 @@ for (const value of buttonValues) {
   buttonContainer.appendChild(button);
 }
 // startPage(container);
-menuPage(container);
+// menuPage(container);
+contactPage(container);
