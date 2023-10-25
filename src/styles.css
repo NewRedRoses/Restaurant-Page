@@ -1,4 +1,6 @@
 :root {
+  background-color: #f5f6fa;
+  font-family: "Times New Roman";
 }
 body {
   margin: 0px;
@@ -18,6 +20,10 @@ body {
   font-style: italic;
   font-weight: 500;
   padding: 50px 150px;
+}
+.buttons-container {
+  display: flex;
+  gap: 5px;
 }
 ul {
   list-style-type: none;
