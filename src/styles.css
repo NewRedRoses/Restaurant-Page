@@ -5,7 +5,8 @@
 body {
   margin: 0px;
 }
-#content {
+#content,
+.page-content {
   display: flex;
   margin-top: 1%;
   flex-direction: column;

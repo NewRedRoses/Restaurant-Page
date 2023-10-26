@@ -1,10 +1,12 @@
 import menuItems from "./menuItems.json";
 
 export default function menuPage(container) {
+  const pageContainer = document.createElement("div");
+  pageContainer.classList.add("page-content");
   const header = document.createElement("div");
   header.textContent = "MENU";
   header.classList.add("header-text");
-  container.appendChild(header);
+  pageContainer.appendChild(header);
 
   const menuContainer = document.createElement("ul");
   menuContainer.classList.add("menu-container");
@@ -29,5 +31,6 @@ export default function menuPage(container) {
 
     menuContainer.appendChild(item);
   }
-  container.appendChild(menuContainer);
+  pageContainer.appendChild(menuContainer);
+  container.appendChild(pageContainer);
 }

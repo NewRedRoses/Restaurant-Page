@@ -1,5 +1,6 @@
 export default function contactPage(container) {
   const contactContainer = document.createElement("div");
+  contactContainer.classList.add("page-content");
   const phoneNumber = document.createElement("div");
   phoneNumber.textContent = "(232)-212-3421";
   contactContainer.appendChild(phoneNumber);
